@@ -3,6 +3,7 @@
     "GitHub.copilot-chat",
     "ms-python.python",
     "vivaxy.vscode-conventional-commits",
-    "github.vscode-github-actions"
+    "github.vscode-github-actions",
+    "ms-vscode.makefile-tools"
   ]
 }

@@ -14,10 +14,11 @@ jobs:
         python: ['3.10', '3.12']
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python }}
+      - run: python scripts/build_manifest.py
       - run: python scripts/build_manifest.py --check
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -v
@@ -25,11 +26,11 @@ jobs:
   node-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: '22'
+          node-version: 24
       - run: node --test cli/test/cli.test.mjs tests/test_finder_runtime.mjs

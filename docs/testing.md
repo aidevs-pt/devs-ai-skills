@@ -16,6 +16,7 @@ benchmark, a security certification, or evidence of business ROI. All starter ex
 are synthetic. Use real operator review before relying on the output in a business.
 
 ```bash
+python scripts/build_manifest.py
 python scripts/build_manifest.py --check
 python scripts/validate.py
 python -m unittest discover -s tests -v

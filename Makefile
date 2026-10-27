@@ -2,6 +2,7 @@
 catalog:
 	python3 scripts/build_manifest.py
 check:
+	python3 scripts/build_manifest.py
 	python3 scripts/build_manifest.py --check
 	python3 scripts/validate.py
 test:
