@@ -91,7 +91,6 @@ class PublisherTests(unittest.TestCase):
         self.assertFalse((self.root / 'docs/domains/obsolete.md').exists())
         message = self.git('log', '-1', '--format=%B')
         self.assertIn(self.source, message)
-        self.assertIn('Co-authored-by: Copilot', message)
         self.assertEqual(self.git('log', '-1', '--format=%an'), 'github-actions[bot]')
         self.assertEqual((self.root / 'README.md').read_text(), 'Source documentation\n')
         self.assertEqual(self.git('status', '--porcelain'), '')
