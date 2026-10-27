@@ -16,7 +16,7 @@ class AuthoringTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(dir=ROOT.parent)
         self.root=Path(self.temp.name)/'repository'
-        shutil.copytree(ROOT,self.root,ignore=shutil.ignore_patterns('__pycache__','*.pyc','downloads','dist','tmp????????'))
+        shutil.copytree(ROOT,self.root,ignore=shutil.ignore_patterns('__pycache__','*.pyc','downloads','dist','website','tmp????????'))
     def tearDown(self):self.temp.cleanup()
     def run_script(self,name,*args):
         return subprocess.run([sys.executable,str(self.root/'scripts'/name),*args],cwd=self.root,capture_output=True,text=True)
@@ -39,10 +39,12 @@ class AuthoringTests(unittest.TestCase):
         self.assertEqual(result.returncode,0,result.stderr)
         config=json.loads((self.root/'config/repository.json').read_text())
         self.assertEqual(config['github_repository'],'example/skills-fixture')
-        self.assertIn('example/skills-fixture',(self.root/'website/content/skills/supplier-catalog-to-store.md').read_text())
+        plugin=json.loads((self.root/'.claude-plugin/plugin.json').read_text())
+        self.assertEqual(plugin['repository'],'https://github.com/example/skills-fixture')
+        self.assertFalse((self.root/'website').exists())
         self.assertEqual(self.run_script('validate.py').returncode,0)
     def test_private_work_and_output_ancestor_are_excluded(self):
-        for name in ['work/customer.json','private-data/orders.csv','.env','.env.local','test.log','__pycache__/x.pyc']:
+        for name in ['work/customer.json','private-data/orders.csv','.env','.env.local','test.log','__pycache__/x.pyc','website/content/index.md']:
             self.assertTrue(excluded(Path(name)),name)
         self.assertFalse(excluded(Path('.github/agents/devs-ai-skill-author.agent.md')))
         with self.assertRaises(ValueError):package(ROOT)

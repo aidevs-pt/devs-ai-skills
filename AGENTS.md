@@ -10,8 +10,9 @@ The canonical installable packages are `.agents/skills/<slug>/`. Read the releva
 - Package business and release metadata: adjacent `skill.json`.
 - Repository identity: `config/repository.json`.
 - Collection membership: `bundles.json`.
-- Generated catalogs, plugin manifests, and website pages: `python scripts/build_manifest.py`.
-  Do not edit generated files manually.
+- Generated catalogs, plugin manifests, and documentation: `python scripts/build_manifest.py`.
+  Optional `--include-website` exports stay local in the ignored `website/` folder;
+  never publish them or require them in CI. Do not edit generated files manually.
 
 ## Completion requirements
 

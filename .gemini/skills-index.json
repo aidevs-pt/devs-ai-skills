@@ -1,0 +1,55 @@
+{
+  "skills": [
+    {
+      "description": "Prepare product listings and import records from supplier CSVs or approved catalog facts. Use when enriching a product catalog, writing bulk product descriptions, or mapping supplier data to store fields.",
+      "name": "supplier-catalog-to-store",
+      "path": ".agents/skills/supplier-catalog-to-store"
+    },
+    {
+      "description": "Prepare order-aware customer support replies from supplied tickets, orders, and policies. Use when answering shipment, return, or cancellation questions or triaging an ecommerce support export. Draft only; do not send or refund.",
+      "name": "ecommerce-support-copilot",
+      "path": ".agents/skills/ecommerce-support-copilot"
+    },
+    {
+      "description": "Answer company policy and SOP questions from approved documents with citations and version checks. Use for internal document Q&A, conflicting procedures, policy updates, or questions that need a verifiable source. Do not invent missing policy.",
+      "name": "company-knowledge-qa",
+      "path": ".agents/skills/company-knowledge-qa"
+    },
+    {
+      "description": "Convert incoming customer purchase orders into reviewed sales-order drafts using an approved catalog. Use for PO data entry, customer item-code matching, pack-size conversion, or order intake from PDFs and emails. Do not submit orders.",
+      "name": "purchase-order-intake",
+      "path": ".agents/skills/purchase-order-intake"
+    },
+    {
+      "description": "Build an editable product-finder quiz prototype from a supplied catalog and buying criteria. Use for product recommendation quizzes, shopping guides, or a custom product-selection demo. Output is a local rule-based prototype, not a live AI recommender.",
+      "name": "product-finder-builder",
+      "path": ".agents/skills/product-finder-builder"
+    },
+    {
+      "description": "Turn a supplied SOP and sample files into a repeatable AI-assisted workflow and complete one work sample. Use when automating a manual business process, defining review points, or separating file work from system integration.",
+      "name": "sop-to-ai-workflow",
+      "path": ".agents/skills/sop-to-ai-workflow"
+    },
+    {
+      "description": "Draft seller-side B2B quotes from incoming RFQs and approved price lists. Use when matching requested SKUs, calculating quote line items, or identifying missing commercial terms. Do not invent prices, discounts, delivery commitments, or send quotes.",
+      "name": "rfq-to-quote",
+      "path": ".agents/skills/rfq-to-quote"
+    },
+    {
+      "description": "Localize an approved product catalog for a new market while preserving facts, variants, placeholders, and import fields. Use for bulk product translation, pt-PT catalog adaptation, or stale localized content after source updates.",
+      "name": "multilingual-catalog-launch",
+      "path": ".agents/skills/multilingual-catalog-launch"
+    },
+    {
+      "description": "Turn supplied reviews, return reasons, and support feedback into evidence-backed product or website improvements. Use for customer feedback analysis, ecommerce return analysis, theme deduplication, or tracing a proposed UX fix to customer records.",
+      "name": "customer-feedback-to-fixes",
+      "path": ".agents/skills/customer-feedback-to-fixes"
+    },
+    {
+      "description": "Identify a feasible first business automation from real tasks, examples, volumes, and correction costs. Use for AI automation discovery, a practical pilot brief, or comparing manual work, existing software, rules, and AI. Do not guarantee savings.",
+      "name": "ai-automation-opportunity-finder",
+      "path": ".agents/skills/ai-automation-opportunity-finder"
+    }
+  ],
+  "source": "registry.json"
+}

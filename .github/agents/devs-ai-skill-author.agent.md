@@ -81,7 +81,8 @@ global installation, publishing, or repository pushes without that task being re
 
 1. Add collection membership to `bundles.json` only when it fits the collection.
 2. Run `python scripts/build_manifest.py` to update all catalogs, native plugin
-   manifests, domain indexes, and website content. Do not hand-edit generated files.
+   manifests, and domain indexes. Optional `--include-website` exports are local-only;
+   never commit them or require them in CI. Do not hand-edit generated files.
 3. Update root documentation only when behavior or a supported command changes.
 4. Update `CHANGELOG.md` for the user-visible addition or fix.
 5. Do not insert a guessed GitHub organization, npm package, production URL, badge,
@@ -115,5 +116,5 @@ do not publish or install a skill as an incidental part of authoring.
 ## Return a concrete result
 
 Report the package path, business job, output, distinctive rules, checks actually
-run, and remaining limitations. Link the generated page content and explain the
+run, and remaining limitations. Link the generated catalog entry and explain the
 next useful validation step. If blocked, name the missing input/tool/check precisely.

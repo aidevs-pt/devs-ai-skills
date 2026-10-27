@@ -24,6 +24,15 @@ python scripts/update_examples.py
 node --test cli/test/cli.test.mjs tests/test_finder_runtime.mjs
 ```
 
+Generated catalogs and documentation are tracked for readers and refreshed by the
+[post-validation publisher](architecture.md#publishing-generated-text). The local-only
+`website/` folder is excluded from test fixtures and is not required or checked by
+normal validation or drift checks. CI still
+regenerates it before checking; stale snapshots do not block the source change that
+will refresh them. Publisher regression tests use isolated local Git repositories,
+not GitHub credentials or live pushes. They do not prove that a repository's branch
+rules allow the Actions bot to write.
+
 Node.js is optional for users. That last command checks the optional CLI wrapper and
 the product finder's generated JavaScript in a minimal DOM harness; it is not a
 browser or native AI-client smoke test.

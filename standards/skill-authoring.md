@@ -74,8 +74,9 @@ trials and native client smoke tests separately from unit tests.
 ## Catalog and search metadata
 
 Update `skill.json`, then run `python scripts/build_manifest.py`. Generated files
-include registry and CLI catalogs, indexes, Claude/Codex manifests, category docs,
-and one unpublished website content file per skill. Do not edit those outputs manually.
+include registry and CLI catalogs, indexes, Claude/Codex manifests, and category docs.
+Optional `--include-website` exports stay local in the ignored `website/` folder;
+they are not part of CI validation or distributions. Do not edit generated outputs manually.
 
 Use a specific business-problem query theme. Query ideas are not measured search
 volume. Cite real public case studies only when relevant and never invent client

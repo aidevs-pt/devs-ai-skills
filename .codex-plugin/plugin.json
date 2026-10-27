@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "DEVS AI LDA",
+    "url": "https://www.aidevs.pt"
+  },
+  "description": "Practical file-based business workflows for commerce, support, knowledge, and operations.",
+  "homepage": "https://www.aidevs.pt",
+  "interface": {
+    "category": "Productivity",
+    "developerName": "DEVS AI",
+    "displayName": "DEVS AI Skills",
+    "longDescription": "10 business workflows with local helper tools and examples. Use supplied files to prepare business outputs. Native client loading and model quality need validation in the selected environment.",
+    "shortDescription": "Business workflows with AI",
+    "websiteURL": "https://www.aidevs.pt"
+  },
+  "license": "MIT",
+  "name": "devs-ai-business-skills",
+  "repository": "https://github.com/aidevs-pt/devs-ai-skills",
+  "skills": "./.agents/skills/",
+  "version": "0.1.0"
+}

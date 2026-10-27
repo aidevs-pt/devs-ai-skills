@@ -14,12 +14,13 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 24
+      - run: python scripts/build_manifest.py
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -v
       - run: python scripts/update_examples.py
       - run: node --test cli/test/cli.test.mjs tests/test_finder_runtime.mjs
       - run: python scripts/package.py --output-dir dist
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: devs-ai-skills
           path: dist/

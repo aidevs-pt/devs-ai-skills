@@ -1,0 +1,32 @@
+name: Publish generated catalogs and docs
+on:
+  workflow_run:
+    workflows: [Validate skills]
+    types: [completed]
+    branches: [master]
+permissions: {}
+jobs:
+  publish:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_branch == 'master' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      (github.event.workflow_run.event == 'push' || github.event.workflow_run.event == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-generated-master
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Generate, validate, and publish only the validated revision
+        env:
+          SOURCE_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: python scripts/publish_generated.py --source-sha "$SOURCE_SHA"

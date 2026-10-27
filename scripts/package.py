@@ -8,7 +8,7 @@ from pathlib import Path
 import zipfile
 from repo import ROOT,catalog,identity,read_json
 
-SKIP_PARTS={'.git','__pycache__','.pytest_cache','node_modules','.venv','dist','work','private-data'}
+SKIP_PARTS={'.git','__pycache__','.pytest_cache','node_modules','.venv','dist','work','private-data','website'}
 
 
 def excluded(path):

@@ -1,0 +1,386 @@
+[
+  {
+    "audience": "E-commerce owner or catalog/content lead",
+    "case_studies": [
+      "https://www.aidevs.pt/work/snorkel-spain",
+      "https://www.aidevs.pt/work/yuqo"
+    ],
+    "category": "commerce",
+    "description": "Prepare product listings and import records from supplier CSVs or approved catalog facts. Use when enriching a product catalog, writing bulk product descriptions, or mapping supplier data to store fields.",
+    "differentiator": "Package the whole supplier-file-to-store workflow. Include a real import schema, field provenance, variant checks, and resumable batch processing. The useful difference is reliable handover into store operations, beyond copywriting alone.",
+    "free_result": "A structured catalog with titles, attributes, descriptions, source references, and a missing-information queue. Validate quantities and variants; preserve unknowns instead of inventing product claims.",
+    "keywords": [
+      "AI product catalog enrichment",
+      "turn supplier catalog into product listings",
+      "automate product descriptions"
+    ],
+    "license": "MIT",
+    "name": "supplier-catalog-to-store",
+    "native_client_smoke_tested": false,
+    "page_slug": "supplier-catalog-to-store",
+    "paid_moment": "We receive new supplier files constantly and need this to update our store automatically.",
+    "path": ".agents/skills/supplier-catalog-to-store",
+    "portuguese_query_themes": [
+      "gerar descrições de produtos em massa",
+      "automatizar catálogo de produtos"
+    ],
+    "primary_query": "bulk product descriptions from CSV",
+    "priority": 1,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Catalog/PIM/CMS integration, content generation pipelines, approval tools, and ongoing synchronization.",
+    "status": "alpha",
+    "summary": "Turn supplier spreadsheets, PDFs, and approved product facts into consistent product records and descriptions, ready for review and import into a store.",
+    "title": "Supplier Catalog to Store",
+    "tools": [
+      "scripts/prepare_catalog.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Bulk Product Descriptions from Supplier Data - Free AI Skill"
+  },
+  {
+    "audience": "Store owner, head of support, or operations lead",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "support",
+    "description": "Prepare order-aware customer support replies from supplied tickets, orders, and policies. Use when answering shipment, return, or cancellation questions or triaging an ecommerce support export. Draft only; do not send or refund.",
+    "differentiator": "Specialize in order problems that require joining messages, order data, and policy rules. Include tricky commerce cases and a useful handover packet. Generic friendly reply generation offers little distinction.",
+    "free_result": "Ticket classification, a source-backed draft reply, required follow-up actions, and an exception queue. Keep missing order facts visible. Do not send replies or issue refunds by default.",
+    "keywords": [
+      "automate order status replies",
+      "AI customer service email replies",
+      "AI returns support"
+    ],
+    "license": "MIT",
+    "name": "ecommerce-support-copilot",
+    "native_client_smoke_tested": false,
+    "page_slug": "ecommerce-support-copilot",
+    "paid_moment": "Can this read the helpdesk, check live orders, and prepare the next action without our exporting files every morning?",
+    "path": ".agents/skills/ecommerce-support-copilot",
+    "portuguese_query_themes": [
+      "automatizar o apoio ao cliente no e-commerce",
+      "IA para responder a clientes"
+    ],
+    "primary_query": "AI ecommerce customer support",
+    "priority": 2,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Connected support assistants, helpdesk/store integrations, approval flows, and controlled workflow automation.",
+    "status": "alpha",
+    "summary": "Handle an exported batch of order-status, partial-shipment, cancellation, and return questions using supplied order records and approved policies.",
+    "title": "E-commerce Support Copilot",
+    "tools": [
+      "scripts/prepare_replies.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "AI Ecommerce Support for Order Questions - Free Skill"
+  },
+  {
+    "audience": "Operations leader, team manager, or founder",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "knowledge",
+    "description": "Answer company policy and SOP questions from approved documents with citations and version checks. Use for internal document Q&A, conflicting procedures, policy updates, or questions that need a verifiable source. Do not invent missing policy.",
+    "differentiator": "Focus on trustworthy business answers across versions, locations, and operating rules. Include a source-authority template and repeatable update workflow. Merely telling an AI to answer from PDFs is too generic.",
+    "free_result": "Answers with exact sources, relevant next steps, and unresolved questions. Maintain a source/owner register and flag conflicting or outdated documents instead of blending them into an answer.",
+    "keywords": [
+      "internal knowledge base chatbot",
+      "AI SOP assistant",
+      "ask questions about company policies"
+    ],
+    "license": "MIT",
+    "name": "company-knowledge-qa",
+    "native_client_smoke_tested": false,
+    "page_slug": "company-knowledge-qa",
+    "paid_moment": "We want this in the tools our employees use, connected to current documents and restricted by who is asking.",
+    "path": ".agents/skills/company-knowledge-qa",
+    "portuguese_query_themes": [
+      "assistente IA para documentos da empresa",
+      "chatbot interno para empresas"
+    ],
+    "primary_query": "AI assistant for company documents",
+    "priority": 3,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Internal AI assistants, permission-aware knowledge search, source connectors, and ongoing document synchronization.",
+    "status": "alpha",
+    "summary": "Answer practical company questions from supplied policies, SOPs, and approved documents, using the right version and scope.",
+    "title": "Company Knowledge Q&A",
+    "tools": [
+      "scripts/resolve_sources.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "AI Assistant for Company Documents - Free Knowledge Skill"
+  },
+  {
+    "audience": "Wholesaler, distributor, or operations manager",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "operations",
+    "description": "Convert incoming customer purchase orders into reviewed sales-order drafts using an approved catalog. Use for PO data entry, customer item-code matching, pack-size conversion, or order intake from PDFs and emails. Do not submit orders.",
+    "differentiator": "Concentrate on inbound customer PO-to-sales-order entry for smaller businesses, including their item codes and exceptions. Start with a vendor-neutral file workflow, rather than a procurement-management interface.",
+    "free_result": "A reviewable spreadsheet/import file with customer details, matched product codes, quantities, source references, and exceptions such as unknown SKUs or ambiguous units.",
+    "keywords": [
+      "AI purchase order processing",
+      "PDF purchase order to Excel",
+      "customer PO to sales order automation"
+    ],
+    "license": "MIT",
+    "name": "purchase-order-intake",
+    "native_client_smoke_tested": false,
+    "page_slug": "purchase-order-intake",
+    "paid_moment": "We need this to watch an inbox, check our catalog, and create approved draft orders in our ERP.",
+    "path": ".agents/skills/purchase-order-intake",
+    "portuguese_query_themes": [
+      "automatizar a introdução de encomendas",
+      "processar notas de encomenda com IA"
+    ],
+    "primary_query": "automate purchase order data entry",
+    "priority": 4,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Document intake, product/customer matching, ERP integrations, review interfaces, and exception handling.",
+    "status": "alpha",
+    "summary": "Turn incoming customer purchase orders and order emails into structured sales-order drafts matched to the seller's approved catalog.",
+    "title": "Purchase Order Intake",
+    "tools": [
+      "scripts/match_orders.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Automate Purchase Order Data Entry - Free AI Skill"
+  },
+  {
+    "audience": "E-commerce owner or growth/product manager",
+    "case_studies": [
+      "https://www.aidevs.pt/work/snorkel-spain",
+      "https://www.aidevs.pt/work/yuqo"
+    ],
+    "category": "commerce",
+    "description": "Build an editable product-finder quiz prototype from a supplied catalog and buying criteria. Use for product recommendation quizzes, shopping guides, or a custom product-selection demo. Output is a local rule-based prototype, not a live AI recommender.",
+    "differentiator": "Give the merchant a working artifact they can own and edit, with transparent matching and genuine catalog constraints. The installation is a way to create a business tool, not a lesson in recommendation algorithms.",
+    "free_result": "A working local HTML prototype, question/product mappings, sample shopper journeys, and explanatory recommendation rules. Label rule-based output accurately; AI can generate the tool without being its runtime engine.",
+    "keywords": [
+      "AI product recommendation quiz",
+      "build a product recommendation quiz",
+      "custom ecommerce product finder"
+    ],
+    "license": "MIT",
+    "name": "product-finder-builder",
+    "native_client_smoke_tested": false,
+    "page_slug": "product-finder-builder",
+    "paid_moment": "Can you embed this in our store, connect live availability, and make it fit our actual shopping journey?",
+    "path": ".agents/skills/product-finder-builder",
+    "portuguese_query_themes": [
+      "quiz de recomendação de produtos",
+      "criar recomendador de produtos"
+    ],
+    "primary_query": "product finder quiz builder",
+    "priority": 5,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Custom commerce tools, recommendation experiences, store integrations, analytics, and product design.",
+    "status": "alpha",
+    "summary": "Build an editable product-finder quiz prototype from a merchant's catalog, buying criteria, and brand assets.",
+    "title": "Product Finder Builder",
+    "tools": [
+      "scripts/build_finder.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Build a Product Finder Quiz - Free AI Agent Skill"
+  },
+  {
+    "audience": "Operations manager or hands-on business owner",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "operations",
+    "description": "Turn a supplied SOP and sample files into a repeatable AI-assisted workflow and complete one work sample. Use when automating a manual business process, defining review points, or separating file work from system integration.",
+    "differentiator": "Require an actual completed work sample rather than stopping at an automation diagram or speculative ROI. Reuse existing tools when suitable and capture the business exceptions explicitly.",
+    "free_result": "A reusable runbook with inputs, rules, review points, and outputs, plus the completed sample. Identify which steps can already run from files and which need system access or integration.",
+    "keywords": [
+      "automate business processes with AI",
+      "automate a manual process",
+      "AI workflow automation for business"
+    ],
+    "license": "MIT",
+    "name": "sop-to-ai-workflow",
+    "native_client_smoke_tested": false,
+    "page_slug": "sop-to-ai-workflow",
+    "paid_moment": "The file-based version works. We need it triggered automatically, connected to our tools, and reliable when inputs change.",
+    "path": ".agents/skills/sop-to-ai-workflow",
+    "portuguese_query_themes": [
+      "automatizar processos com IA",
+      "automatização de processos empresariais com IA"
+    ],
+    "primary_query": "turn SOP into AI workflow",
+    "priority": 6,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Workflow design, integrations, scheduled automations, exception handling, and ongoing support.",
+    "status": "alpha",
+    "summary": "Turn a real operating procedure into a repeatable AI-assisted workflow, then complete one supplied example of the work.",
+    "title": "SOP to AI Workflow",
+    "tools": [
+      "scripts/check_workflow.py",
+      "scripts/compare_prices.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Turn an SOP into an AI Workflow - Free Business Skill"
+  },
+  {
+    "audience": "B2B sales operations team or distributor",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "sales",
+    "description": "Draft seller-side B2B quotes from incoming RFQs and approved price lists. Use when matching requested SKUs, calculating quote line items, or identifying missing commercial terms. Do not invent prices, discounts, delivery commitments, or send quotes.",
+    "differentiator": "Specialize in catalog-based B2B quoting with traceable line items and exception handling. A generic proposal writer is already widely available.",
+    "free_result": "Matched quote line items, source prices and calculations, a customer-ready draft, and a missing-information list. Ask for clarification on uncertain matches or terms; never invent a discount or delivery promise.",
+    "keywords": [
+      "automate RFQ responses",
+      "B2B quote automation",
+      "customer enquiry to quotation"
+    ],
+    "license": "MIT",
+    "name": "rfq-to-quote",
+    "native_client_smoke_tested": false,
+    "page_slug": "rfq-to-quote",
+    "paid_moment": "Can this use customer-specific pricing, availability, approvals, and our CRM or ERP?",
+    "path": ".agents/skills/rfq-to-quote",
+    "portuguese_query_themes": [
+      "automatizar orçamentos comerciais",
+      "gerar propostas com IA"
+    ],
+    "primary_query": "AI quote generation from price list",
+    "priority": 7,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Custom quote automation, CRM/ERP integration, pricing-rule interfaces, and approval workflows.",
+    "status": "alpha",
+    "summary": "Turn a buyer's request for quotation into a draft commercial quote using an approved catalog, price list, and supplied commercial rules.",
+    "title": "RFQ to Quote",
+    "tools": [
+      "scripts/build_quote.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Generate Quotes from RFQs and Price Lists - Free AI Skill"
+  },
+  {
+    "audience": "E-commerce team entering a new language market",
+    "case_studies": [
+      "https://www.aidevs.pt/work/snorkel-spain",
+      "https://www.aidevs.pt/work/yuqo"
+    ],
+    "category": "commerce",
+    "description": "Localize an approved product catalog for a new market while preserving facts, variants, placeholders, and import fields. Use for bulk product translation, pt-PT catalog adaptation, or stale localized content after source updates.",
+    "differentiator": "Package a market-launch workflow with usable catalog files and later update handling. Target merchants who need to publish and maintain a market, rather than people looking for a one-sentence translation.",
+    "free_result": "A localized catalog, a reusable glossary, protected-fact checks, and a review queue. Keep stable product IDs and produce a change list when approved source content is updated.",
+    "keywords": [
+      "multilingual ecommerce content",
+      "AI ecommerce localization",
+      "product catalog translation"
+    ],
+    "license": "MIT",
+    "name": "multilingual-catalog-launch",
+    "native_client_smoke_tested": false,
+    "page_slug": "multilingual-catalog-launch",
+    "paid_moment": "We need multiple locales and brands kept in sync with new products and changing source facts.",
+    "path": ".agents/skills/multilingual-catalog-launch",
+    "portuguese_query_themes": [
+      "traduzir catálogos de produtos",
+      "tradução de lojas online com IA"
+    ],
+    "primary_query": "translate product descriptions in bulk",
+    "priority": 8,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Multilingual content systems, CMS/PIM synchronization, approval workflows, and custom AI content tools.",
+    "status": "alpha",
+    "summary": "Localize an existing approved catalog for a target market while preserving product facts, variant relationships, terminology, and import structure.",
+    "title": "Multilingual Catalog Launch",
+    "tools": [
+      "scripts/check_localization.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Translate Product Catalogs in Bulk - Free AI Skill"
+  },
+  {
+    "audience": "Product, e-commerce, or customer-experience lead",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "product",
+    "description": "Turn supplied reviews, return reasons, and support feedback into evidence-backed product or website improvements. Use for customer feedback analysis, ecommerce return analysis, theme deduplication, or tracing a proposed UX fix to customer records.",
+    "differentiator": "Join customer evidence to specific commerce/product changes, with links back to the original records. A sentiment summary or generic roadmap is insufficient.",
+    "free_result": "Deduplicated themes with traceable examples, affected products or journey stages, suggested fixes, and questions that need more evidence. Keep measured counts separate from estimated impact.",
+    "keywords": [
+      "AI customer feedback analysis",
+      "analyze product reviews with AI",
+      "customer feedback to product improvements"
+    ],
+    "license": "MIT",
+    "name": "customer-feedback-to-fixes",
+    "native_client_smoke_tested": false,
+    "page_slug": "customer-feedback-to-fixes",
+    "paid_moment": "Can you keep this fed from all our channels and implement the product or website changes it reveals?",
+    "path": ".agents/skills/customer-feedback-to-fixes",
+    "portuguese_query_themes": [
+      "analisar feedback de clientes com IA",
+      "analisar avaliações de produtos"
+    ],
+    "primary_query": "analyze ecommerce return reasons with AI",
+    "priority": 9,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "Customer-insight pipelines, dashboards, AI analysis, UX redesign, and product engineering.",
+    "status": "alpha",
+    "summary": "Turn reviews, return reasons, and support exports into an evidence-backed list of product, website, or operating-process improvements.",
+    "title": "Customer Feedback to Fixes",
+    "tools": [
+      "scripts/group_feedback.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Turn Customer Feedback into Product Fixes - Free AI Skill"
+  },
+  {
+    "audience": "Business owner or operations leader exploring AI",
+    "case_studies": [
+      "https://www.aidevs.pt/ai-services"
+    ],
+    "category": "strategy",
+    "description": "Identify a feasible first business automation from real tasks, examples, volumes, and correction costs. Use for AI automation discovery, a practical pilot brief, or comparing manual work, existing software, rules, and AI. Do not guarantee savings.",
+    "differentiator": "Make the output specific enough to run a pilot or request comparable implementation quotes. Use real task evidence and transparent economics, with no invented savings or forced custom-AI recommendation.",
+    "free_result": "A prioritized shortlist, editable assumptions, an option comparison, and a scoped pilot brief with a baseline and success criteria. Include process changes or existing software when they are sufficient.",
+    "keywords": [
+      "what can I automate with AI",
+      "AI automation audit",
+      "AI use cases for small business"
+    ],
+    "license": "MIT",
+    "name": "ai-automation-opportunity-finder",
+    "native_client_smoke_tested": false,
+    "page_slug": "ai-automation-opportunity-finder",
+    "paid_moment": "We have a concrete pilot. We need help validating, connecting, and implementing it.",
+    "path": ".agents/skills/ai-automation-opportunity-finder",
+    "portuguese_query_themes": [
+      "o que automatizar com IA na empresa",
+      "oportunidades de automatização com IA"
+    ],
+    "primary_query": "AI automation opportunities for business",
+    "priority": 10,
+    "publisher": "DEVS AI LDA",
+    "service_bridge": "AI discovery, feasibility assessment, prototypes, and custom implementation.",
+    "status": "alpha",
+    "summary": "Identify a worthwhile first automation using the business's actual tasks, volumes, examples, systems, and correction costs.",
+    "title": "AI Automation Opportunity Finder",
+    "tools": [
+      "scripts/rank_opportunities.py"
+    ],
+    "updated": "2026-10-27",
+    "version": "0.1.0",
+    "website_title": "Find Your First Business AI Automation - Free Skill"
+  }
+]

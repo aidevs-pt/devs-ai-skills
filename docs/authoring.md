@@ -35,8 +35,11 @@ AI account or change your machine's global configuration.
 4. Keep runtime dependencies inside the package.
 5. Test normal, edge, and untrusted-input cases, with an actual useful output.
 6. Update collection membership only where appropriate.
-7. Regenerate catalogs and website pages, then validate and run relevant tests.
+7. Regenerate catalogs and documentation, then validate and run relevant tests.
 8. Update the changelog and report remaining uncertainty honestly.
+
+Website exports are optional local-only files. Generate them with
+`python scripts/build_manifest.py --include-website` only when needed; do not commit them.
 
 Use `python scripts/update_examples.py --write` to deliberately regenerate helper
 examples after reviewing a change. Do not confuse a new golden file with an

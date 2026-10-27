@@ -1,0 +1,14 @@
+{
+  "name": "devs-ai-marketplace",
+  "owner": {
+    "name": "DEVS AI LDA",
+    "url": "https://www.aidevs.pt"
+  },
+  "plugins": [
+    {
+      "description": "Practical file-based business workflows for commerce, support, knowledge, and operations.",
+      "name": "devs-ai-business-skills",
+      "source": "./"
+    }
+  ]
+}
