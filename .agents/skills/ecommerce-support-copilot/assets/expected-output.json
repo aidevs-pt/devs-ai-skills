@@ -1,0 +1,49 @@
+{
+  "drafts_are_not_resolution_decisions": true,
+  "refunds_issued": false,
+  "sent": false,
+  "tickets": [
+    {
+      "actions": [
+        "review_current_shipping_record_before_sending"
+      ],
+      "draft": "Your order ORDER-104 is currently marked partially shipped. One item is awaiting dispatch; no new dispatch date is confirmed.",
+      "facts": {
+        "shipment_note": "One item is awaiting dispatch; no new dispatch date is confirmed.",
+        "status": "partially shipped"
+      },
+      "sources": [
+        "order:ORDER-104"
+      ],
+      "status": "draft_ready",
+      "ticket_id": "T-1"
+    },
+    {
+      "actions": [
+        "verify_customer_order_match"
+      ],
+      "draft": null,
+      "facts": {},
+      "sources": [],
+      "status": "needs_review",
+      "ticket_id": "T-2"
+    },
+    {
+      "actions": [
+        "human_review_eligibility_and_next_action"
+      ],
+      "draft": "We have received your return request for order ORDER-104. Our team will check it against the applicable policy.",
+      "facts": {
+        "policy_text": "Requests must be reviewed against the current approved return conditions.",
+        "shipment_note": "One item is awaiting dispatch; no new dispatch date is confirmed.",
+        "status": "partially shipped"
+      },
+      "sources": [
+        "order:ORDER-104",
+        "policy:RETURNS-PT-3"
+      ],
+      "status": "needs_review",
+      "ticket_id": "T-3"
+    }
+  ]
+}

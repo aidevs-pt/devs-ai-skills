@@ -1,0 +1,4 @@
+interface:
+  display_name: "Purchase Order Intake"
+  short_description: "Prepare reviewable operations workflow outputs"
+  default_prompt: "Use $purchase-order-intake to turn incoming customer purchase orders and order emails into structured sales-order drafts matched to the seller's approved catalog."

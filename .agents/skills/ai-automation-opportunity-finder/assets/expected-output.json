@@ -1,0 +1,61 @@
+{
+  "needs_more_information": [
+    {
+      "id": "unknown-volume",
+      "missing": [
+        "runs_per_month"
+      ]
+    }
+  ],
+  "note": "Scenario estimates exclude unspecified software, implementation, monitoring, and maintenance costs. No guaranteed savings or ROI.",
+  "ranked_scenarios": [
+    {
+      "assumptions": {
+        "automatable_fraction": "0.8",
+        "minutes_per_run": "6",
+        "review_minutes_per_run": "1",
+        "runs_per_month": "100"
+      },
+      "currency": "EUR",
+      "evidence": [
+        "timing-sample-20-rows"
+      ],
+      "evidence_status": "supplied",
+      "id": "catalog",
+      "manual_hours_per_month": "10.00",
+      "net_roi": null,
+      "options_to_compare": [
+        "process_change",
+        "existing_software",
+        "rules_automation",
+        "ai_assisted_workflow"
+      ],
+      "scenario_hours_per_month": "3.67",
+      "scenario_hours_saved": "6.33",
+      "scenario_labor_value": "190.00"
+    },
+    {
+      "assumptions": {
+        "automatable_fraction": "0.5",
+        "minutes_per_run": "1",
+        "review_minutes_per_run": "1",
+        "runs_per_month": "100"
+      },
+      "currency": null,
+      "evidence": [],
+      "evidence_status": "assumption_only",
+      "id": "short-task",
+      "manual_hours_per_month": "1.67",
+      "net_roi": null,
+      "options_to_compare": [
+        "process_change",
+        "existing_software",
+        "rules_automation",
+        "ai_assisted_workflow"
+      ],
+      "scenario_hours_per_month": "2.50",
+      "scenario_hours_saved": "-0.83",
+      "scenario_labor_value": null
+    }
+  ]
+}

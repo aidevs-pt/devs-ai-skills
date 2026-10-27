@@ -1,0 +1,4 @@
+interface:
+  display_name: "E-commerce Support Copilot"
+  short_description: "Draft source-backed order support replies"
+  default_prompt: "Use $ecommerce-support-copilot to handle an exported batch of order-status, partial-shipment, cancellation, and return questions using supplied order records and approved policies."

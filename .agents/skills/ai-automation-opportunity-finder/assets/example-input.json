@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "id": "catalog",
+      "runs_per_month": 100,
+      "minutes_per_run": 6,
+      "automatable_fraction": "0.8",
+      "review_minutes_per_run": 1,
+      "hourly_cost": 30,
+      "currency": "EUR",
+      "evidence": [
+        "timing-sample-20-rows"
+      ]
+    },
+    {
+      "id": "short-task",
+      "runs_per_month": 100,
+      "minutes_per_run": 1,
+      "automatable_fraction": "0.5",
+      "review_minutes_per_run": 1,
+      "evidence": []
+    },
+    {
+      "id": "unknown-volume",
+      "minutes_per_run": 10,
+      "automatable_fraction": "0.7",
+      "review_minutes_per_run": 2
+    }
+  ]
+}

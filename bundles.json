@@ -1,0 +1,21 @@
+{
+  "starter": [
+    "supplier-catalog-to-store",
+    "ecommerce-support-copilot",
+    "company-knowledge-qa"
+  ],
+  "commerce": [
+    "supplier-catalog-to-store",
+    "ecommerce-support-copilot",
+    "product-finder-builder",
+    "multilingual-catalog-launch",
+    "customer-feedback-to-fixes"
+  ],
+  "operations": [
+    "company-knowledge-qa",
+    "purchase-order-intake",
+    "sop-to-ai-workflow",
+    "rfq-to-quote",
+    "ai-automation-opportunity-finder"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "supplier-catalog-to-store",
+  "title": "Supplier Catalog to Store",
+  "version": "0.1.0",
+  "category": "commerce",
+  "priority": 1,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "E-commerce owner or catalog/content lead",
+  "summary": "Turn supplier spreadsheets, PDFs, and approved product facts into consistent product records and descriptions, ready for review and import into a store.",
+  "free_result": "A structured catalog with titles, attributes, descriptions, source references, and a missing-information queue. Validate quantities and variants; preserve unknowns instead of inventing product claims.",
+  "differentiator": "Package the whole supplier-file-to-store workflow. Include a real import schema, field provenance, variant checks, and resumable batch processing. The useful difference is reliable handover into store operations, beyond copywriting alone.",
+  "service_bridge": "Catalog/PIM/CMS integration, content generation pipelines, approval tools, and ongoing synchronization.",
+  "paid_moment": "We receive new supplier files constantly and need this to update our store automatically.",
+  "website_title": "Bulk Product Descriptions from Supplier Data - Free AI Skill",
+  "primary_query": "bulk product descriptions from CSV",
+  "keywords": [
+    "AI product catalog enrichment",
+    "turn supplier catalog into product listings",
+    "automate product descriptions"
+  ],
+  "portuguese_query_themes": [
+    "gerar descrições de produtos em massa",
+    "automatizar catálogo de produtos"
+  ],
+  "page_slug": "supplier-catalog-to-store",
+  "tools": [
+    "scripts/prepare_catalog.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/work/snorkel-spain",
+    "https://www.aidevs.pt/work/yuqo"
+  ]
+}

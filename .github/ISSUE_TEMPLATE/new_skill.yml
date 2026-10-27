@@ -1,0 +1,13 @@
+name: New business skill
+description: Propose a useful recurring business workflow.
+body:
+  - type: textarea
+    id: business_job
+    attributes:
+      label: Business owner, input, finished output, and difficult case
+    validations:
+      required: true
+  - type: textarea
+    id: differentiation
+    attributes:
+      label: Existing alternatives and why this workflow would be useful

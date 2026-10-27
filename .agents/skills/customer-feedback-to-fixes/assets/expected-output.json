@@ -1,0 +1,41 @@
+{
+  "duplicates": [
+    {
+      "duplicate_of": "F1",
+      "id": "F2"
+    }
+  ],
+  "groups": [
+    {
+      "evidence": [
+        {
+          "id": "F1",
+          "quote": "I could not tell which size to choose.",
+          "source": "ticket-17"
+        },
+        {
+          "id": "F3",
+          "quote": "The size guide did not explain the fit.",
+          "source": "return-91"
+        },
+        {
+          "id": "F4",
+          "quote": "I could not tell which size to choose.",
+          "source": "anonymous-review-4"
+        }
+      ],
+      "journey_stage": "size_selection",
+      "known_unique_customers": 2,
+      "product": "JACKET",
+      "record_count": 3,
+      "suggested_fix_status": "host_to_form_hypothesis_from_evidence",
+      "theme": "size_confusion",
+      "total_unique_customers": null
+    }
+  ],
+  "population_representativeness": "unknown",
+  "sentiment_score": null,
+  "unclassified": [
+    "F5"
+  ]
+}

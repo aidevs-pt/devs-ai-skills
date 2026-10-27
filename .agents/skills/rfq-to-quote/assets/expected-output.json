@@ -1,0 +1,30 @@
+{
+  "confirmed_lines_subtotal": "24.99",
+  "currency": "EUR",
+  "delivery_terms": "To be confirmed before issue.",
+  "exceptions": [],
+  "lines": [
+    {
+      "line_id": "L1",
+      "line_total": "0.30",
+      "price_source": "price-list-4:A",
+      "quantity": "3",
+      "sku": "A",
+      "unit_price": "0.10"
+    },
+    {
+      "line_id": "L2",
+      "line_total": "24.69",
+      "price_source": "price-list-4:B",
+      "quantity": "2",
+      "sku": "B",
+      "unit_price": "12.345"
+    }
+  ],
+  "quote_id": "DRAFT-Q17",
+  "sent": false,
+  "status": "draft_ready_for_review",
+  "tax": "5.75",
+  "tax_status": "supplied_rule_applied",
+  "total": "30.74"
+}

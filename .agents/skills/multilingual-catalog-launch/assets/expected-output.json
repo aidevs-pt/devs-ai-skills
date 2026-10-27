@@ -1,0 +1,37 @@
+{
+  "issues": [
+    {
+      "code": "stale_source_revision",
+      "sku": "B250"
+    }
+  ],
+  "native_review_required": true,
+  "note": "Unchanged facts metadata cannot prove translated prose preserves those facts; review both.",
+  "records": [
+    {
+      "check_status": "needs_review",
+      "description": "Uma garrafa de 250 ml da {brand}.",
+      "facts": {
+        "capacity_ml": 250
+      },
+      "locale": "pt-PT",
+      "sku": "B250",
+      "source_revision": "r1",
+      "title": "Garrafa de 250 ml",
+      "variant_id": "250"
+    },
+    {
+      "check_status": "structural_checks_passed",
+      "description": "Uma garrafa de 500 ml da {brand}.",
+      "facts": {
+        "capacity_ml": 500
+      },
+      "locale": "pt-PT",
+      "sku": "B500",
+      "source_revision": "r3",
+      "title": "Garrafa de 500 ml",
+      "variant_id": "500"
+    }
+  ],
+  "semantic_quality": "not_measured"
+}

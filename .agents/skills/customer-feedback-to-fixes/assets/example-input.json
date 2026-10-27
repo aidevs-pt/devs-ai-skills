@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "F1",
+      "customer_id": "C1",
+      "channel": "email",
+      "product": "JACKET",
+      "journey_stage": "size_selection",
+      "theme": "size_confusion",
+      "text": "I could not tell which size to choose.",
+      "source": "ticket-17"
+    },
+    {
+      "id": "F2",
+      "customer_id": "C1",
+      "channel": "review",
+      "product": "JACKET",
+      "journey_stage": "size_selection",
+      "theme": "size_confusion",
+      "text": "I could not tell which size to choose.",
+      "source": "review-88"
+    },
+    {
+      "id": "F3",
+      "customer_id": "C2",
+      "channel": "return",
+      "product": "JACKET",
+      "journey_stage": "size_selection",
+      "theme": "size_confusion",
+      "text": "The size guide did not explain the fit.",
+      "source": "return-91"
+    },
+    {
+      "id": "F4",
+      "product": "JACKET",
+      "journey_stage": "size_selection",
+      "theme": "size_confusion",
+      "text": "I could not tell which size to choose.",
+      "source": "anonymous-review-4"
+    },
+    {
+      "id": "F5",
+      "text": "Please add a blue version.",
+      "source": "survey-9"
+    }
+  ]
+}

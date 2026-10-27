@@ -1,0 +1,60 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "DEVS AI: regenerate catalogs",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "scripts/build_manifest.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DEVS AI: validate",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "scripts/validate.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DEVS AI: tests",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "DEVS AI: package",
+      "type": "process",
+      "command": "python",
+      "args": [
+        "scripts/package.py",
+        "--output-dir",
+        "dist"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

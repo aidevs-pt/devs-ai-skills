@@ -1,0 +1,7 @@
+{
+  "contract_valid": true,
+  "executed_workflow": false,
+  "issues": [],
+  "name": "Weekly supplier price review",
+  "note": "A valid contract does not prove a connector or runtime enforces it."
+}

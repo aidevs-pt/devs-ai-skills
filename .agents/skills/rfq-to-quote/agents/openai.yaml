@@ -1,0 +1,4 @@
+interface:
+  display_name: "RFQ to Quote"
+  short_description: "Draft quotes from approved catalog prices"
+  default_prompt: "Use $rfq-to-quote to turn a buyer's request for quotation into a draft commercial quote using an approved catalog, price list, and supplied commercial rules."

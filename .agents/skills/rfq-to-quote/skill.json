@@ -1,0 +1,36 @@
+{
+  "name": "rfq-to-quote",
+  "title": "RFQ to Quote",
+  "version": "0.1.0",
+  "category": "sales",
+  "priority": 7,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "B2B sales operations team or distributor",
+  "summary": "Turn a buyer's request for quotation into a draft commercial quote using an approved catalog, price list, and supplied commercial rules.",
+  "free_result": "Matched quote line items, source prices and calculations, a customer-ready draft, and a missing-information list. Ask for clarification on uncertain matches or terms; never invent a discount or delivery promise.",
+  "differentiator": "Specialize in catalog-based B2B quoting with traceable line items and exception handling. A generic proposal writer is already widely available.",
+  "service_bridge": "Custom quote automation, CRM/ERP integration, pricing-rule interfaces, and approval workflows.",
+  "paid_moment": "Can this use customer-specific pricing, availability, approvals, and our CRM or ERP?",
+  "website_title": "Generate Quotes from RFQs and Price Lists - Free AI Skill",
+  "primary_query": "AI quote generation from price list",
+  "keywords": [
+    "automate RFQ responses",
+    "B2B quote automation",
+    "customer enquiry to quotation"
+  ],
+  "portuguese_query_themes": [
+    "automatizar orçamentos comerciais",
+    "gerar propostas com IA"
+  ],
+  "page_slug": "rfq-to-quote",
+  "tools": [
+    "scripts/build_quote.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

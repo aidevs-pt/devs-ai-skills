@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multilingual Catalog Launch"
+  short_description: "Prepare useful commerce workflow outputs"
+  default_prompt: "Use $multilingual-catalog-launch to localize an existing approved catalog for a target market while preserving product facts, variant relationships, terminology, and import structure."

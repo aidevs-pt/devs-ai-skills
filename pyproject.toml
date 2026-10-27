@@ -1,0 +1,11 @@
+[project]
+name = "devs-ai-skills-repository"
+version = "0.1.0"
+description = "Local tooling and standalone business workflows for AI assistants"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[tool.ruff]
+target-version = "py310"
+line-length = 110

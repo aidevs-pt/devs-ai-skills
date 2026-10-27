@@ -1,0 +1,36 @@
+{
+  "name": "company-knowledge-qa",
+  "title": "Company Knowledge Q&A",
+  "version": "0.1.0",
+  "category": "knowledge",
+  "priority": 3,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Operations leader, team manager, or founder",
+  "summary": "Answer practical company questions from supplied policies, SOPs, and approved documents, using the right version and scope.",
+  "free_result": "Answers with exact sources, relevant next steps, and unresolved questions. Maintain a source/owner register and flag conflicting or outdated documents instead of blending them into an answer.",
+  "differentiator": "Focus on trustworthy business answers across versions, locations, and operating rules. Include a source-authority template and repeatable update workflow. Merely telling an AI to answer from PDFs is too generic.",
+  "service_bridge": "Internal AI assistants, permission-aware knowledge search, source connectors, and ongoing document synchronization.",
+  "paid_moment": "We want this in the tools our employees use, connected to current documents and restricted by who is asking.",
+  "website_title": "AI Assistant for Company Documents - Free Knowledge Skill",
+  "primary_query": "AI assistant for company documents",
+  "keywords": [
+    "internal knowledge base chatbot",
+    "AI SOP assistant",
+    "ask questions about company policies"
+  ],
+  "portuguese_query_themes": [
+    "assistente IA para documentos da empresa",
+    "chatbot interno para empresas"
+  ],
+  "page_slug": "company-knowledge-qa",
+  "tools": [
+    "scripts/resolve_sources.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "quote_id": "DRAFT-Q17",
+  "currency": "EUR",
+  "tax_rate": "0.23",
+  "tax_rule_source": "fictional-approved-example-rule",
+  "approved_delivery_terms": "To be confirmed before issue.",
+  "catalog": [
+    {
+      "sku": "A",
+      "unit_price": "0.10",
+      "currency": "EUR",
+      "approved": true,
+      "price_source": "price-list-4:A"
+    },
+    {
+      "sku": "B",
+      "unit_price": "12.345",
+      "currency": "EUR",
+      "approved": true,
+      "price_source": "price-list-4:B"
+    }
+  ],
+  "request": [
+    {
+      "id": "L1",
+      "sku": "A",
+      "quantity": "3"
+    },
+    {
+      "id": "L2",
+      "sku": "B",
+      "quantity": "2"
+    }
+  ]
+}

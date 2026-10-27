@@ -1,0 +1,43 @@
+{
+  "orders": [
+    {
+      "id": "ORDER-104",
+      "customer_id": "CUSTOMER-7",
+      "status": "partially shipped",
+      "region": "PT",
+      "shipment_note": "One item is awaiting dispatch; no new dispatch date is confirmed."
+    }
+  ],
+  "policies": [
+    {
+      "id": "RETURNS-PT-3",
+      "approved": true,
+      "region": "PT",
+      "text": "Requests must be reviewed against the current approved return conditions."
+    }
+  ],
+  "tickets": [
+    {
+      "id": "T-1",
+      "order_id": "ORDER-104",
+      "customer_id": "CUSTOMER-7",
+      "intent": "order_status",
+      "message": "Has my full order shipped?"
+    },
+    {
+      "id": "T-2",
+      "order_id": "ORDER-104",
+      "customer_id": "CUSTOMER-OTHER",
+      "intent": "order_status",
+      "message": "Give me the shipping details."
+    },
+    {
+      "id": "T-3",
+      "order_id": "ORDER-104",
+      "customer_id": "CUSTOMER-7",
+      "intent": "return",
+      "policy_id": "RETURNS-PT-3",
+      "message": "I would like to return this."
+    }
+  ]
+}

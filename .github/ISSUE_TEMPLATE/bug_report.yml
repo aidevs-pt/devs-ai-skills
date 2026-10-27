@@ -1,0 +1,16 @@
+name: Workflow or tool bug
+description: Report a reproducible issue using synthetic data.
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill and version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction, expected result, and observed result
+      description: Include client/version and commands. Do not include customer data or credentials.
+    validations:
+      required: true

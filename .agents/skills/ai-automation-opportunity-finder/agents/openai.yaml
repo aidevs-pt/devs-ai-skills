@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Automation Opportunity Finder"
+  short_description: "Choose a bounded automation pilot"
+  default_prompt: "Use $ai-automation-opportunity-finder to identify a worthwhile first automation using the business's actual tasks, volumes, examples, systems, and correction costs."

@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce-support-copilot",
+  "title": "E-commerce Support Copilot",
+  "version": "0.1.0",
+  "category": "support",
+  "priority": 2,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Store owner, head of support, or operations lead",
+  "summary": "Handle an exported batch of order-status, partial-shipment, cancellation, and return questions using supplied order records and approved policies.",
+  "free_result": "Ticket classification, a source-backed draft reply, required follow-up actions, and an exception queue. Keep missing order facts visible. Do not send replies or issue refunds by default.",
+  "differentiator": "Specialize in order problems that require joining messages, order data, and policy rules. Include tricky commerce cases and a useful handover packet. Generic friendly reply generation offers little distinction.",
+  "service_bridge": "Connected support assistants, helpdesk/store integrations, approval flows, and controlled workflow automation.",
+  "paid_moment": "Can this read the helpdesk, check live orders, and prepare the next action without our exporting files every morning?",
+  "website_title": "AI Ecommerce Support for Order Questions - Free Skill",
+  "primary_query": "AI ecommerce customer support",
+  "keywords": [
+    "automate order status replies",
+    "AI customer service email replies",
+    "AI returns support"
+  ],
+  "portuguese_query_themes": [
+    "automatizar o apoio ao cliente no e-commerce",
+    "IA para responder a clientes"
+  ],
+  "page_slug": "ecommerce-support-copilot",
+  "tools": [
+    "scripts/prepare_replies.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

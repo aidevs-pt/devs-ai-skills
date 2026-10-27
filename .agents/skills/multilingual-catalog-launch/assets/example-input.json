@@ -1,0 +1,49 @@
+{
+  "target_locale": "pt-PT",
+  "source": [
+    {
+      "sku": "B250",
+      "variant_id": "250",
+      "revision": "r2",
+      "title": "Bottle 250 ml",
+      "description": "A 250 ml bottle from {brand}.",
+      "facts": {
+        "capacity_ml": 250
+      }
+    },
+    {
+      "sku": "B500",
+      "variant_id": "500",
+      "revision": "r3",
+      "title": "Bottle 500 ml",
+      "description": "A 500 ml bottle from {brand}.",
+      "facts": {
+        "capacity_ml": 500
+      }
+    }
+  ],
+  "localized": [
+    {
+      "sku": "B250",
+      "variant_id": "250",
+      "source_revision": "r1",
+      "locale": "pt-PT",
+      "title": "Garrafa de 250 ml",
+      "description": "Uma garrafa de 250 ml da {brand}.",
+      "facts": {
+        "capacity_ml": 250
+      }
+    },
+    {
+      "sku": "B500",
+      "variant_id": "500",
+      "source_revision": "r3",
+      "locale": "pt-PT",
+      "title": "Garrafa de 500 ml",
+      "description": "Uma garrafa de 500 ml da {brand}.",
+      "facts": {
+        "capacity_ml": 500
+      }
+    }
+  ]
+}

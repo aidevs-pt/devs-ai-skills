@@ -1,0 +1,4 @@
+interface:
+  display_name: "Supplier Catalog to Store"
+  short_description: "Prepare useful commerce workflow outputs"
+  default_prompt: "Use $supplier-catalog-to-store to turn supplier spreadsheets, PDFs, and approved product facts into consistent product records and descriptions, ready for review and import into a store."

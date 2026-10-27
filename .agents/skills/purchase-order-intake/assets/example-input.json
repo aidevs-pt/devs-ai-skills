@@ -1,0 +1,60 @@
+{
+  "catalog": [
+    {
+      "sku": "CUP-01",
+      "unit": "piece",
+      "aliases": [
+        "OLD-CUP"
+      ],
+      "unit_conversions": {
+        "box": "12"
+      },
+      "source": "catalog-v2:cup-01"
+    },
+    {
+      "sku": "TRAY-01",
+      "unit": "piece",
+      "aliases": [
+        "TRAY"
+      ],
+      "source": "catalog-v2:tray-01"
+    },
+    {
+      "sku": "TRAY-02",
+      "unit": "piece",
+      "aliases": [
+        "TRAY"
+      ],
+      "source": "catalog-v2:tray-02"
+    }
+  ],
+  "orders": [
+    {
+      "id": "PO-88",
+      "customer_id": "CUSTOMER-22",
+      "lines": [
+        {
+          "id": "L1",
+          "product_code": "OLD-CUP",
+          "quantity": "2",
+          "unit": "box",
+          "source": "po-88:page-1:line-1"
+        },
+        {
+          "id": "L2",
+          "product_code": "TRAY",
+          "quantity": "1",
+          "unit": "piece",
+          "source": "po-88:page-1:line-2"
+        },
+        {
+          "id": "L3",
+          "product_code": "UNKNOWN",
+          "quantity": "5",
+          "unit": "piece",
+          "source": "po-88:page-1:line-3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+---
+description: Create or improve independently installable DEVS AI skill packages.
+globs: ".agents/skills/**"
+alwaysApply: false
+---
+
+Follow standards/skill-authoring.md. Keep packages self-contained and use standard-library
+Python helpers for deterministic work. Preserve unknown facts and source IDs. Run
+scripts/build_manifest.py, scripts/validate.py, and meaningful tests after changes.
+Do not claim native-client behavior was tested unless the client was actually exercised.

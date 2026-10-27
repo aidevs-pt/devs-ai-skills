@@ -1,0 +1,48 @@
+{
+  "as_of": "2026-10-27",
+  "scope": "PT",
+  "documents": [
+    {
+      "id": "RET-OLD",
+      "topic": "returns",
+      "owner": "Store Operations",
+      "approved": true,
+      "scope": "PT",
+      "effective_from": "2026-01-01",
+      "effective_to": "2026-09-30",
+      "content": "The sample return period is 14 days."
+    },
+    {
+      "id": "RET-CURRENT",
+      "topic": "returns",
+      "owner": "Store Operations",
+      "approved": true,
+      "scope": "PT",
+      "effective_from": "2026-10-01",
+      "content": "The sample return period is 30 days."
+    },
+    {
+      "id": "SUB-A",
+      "topic": "subscriptions",
+      "owner": "Customer Operations",
+      "approved": true,
+      "scope": "PT",
+      "effective_from": "2026-10-01",
+      "content": "The sample subscription can be paused."
+    },
+    {
+      "id": "SUB-B",
+      "topic": "subscriptions",
+      "owner": "Customer Operations",
+      "approved": true,
+      "scope": "PT",
+      "effective_from": "2026-10-01",
+      "content": "The sample subscription cannot be paused."
+    }
+  ],
+  "questions": [
+    "What is the returns period?",
+    "Can subscriptions be paused?",
+    "What is our warehouse opening time?"
+  ]
+}

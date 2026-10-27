@@ -1,0 +1,69 @@
+{
+  "title": "Find a lamp for your room",
+  "products": [
+    {
+      "id": "LAMP-S",
+      "name": "Small desk lamp",
+      "price": "49.90",
+      "currency": "EUR",
+      "available": true,
+      "attributes": {
+        "room": "small"
+      },
+      "url": "https://merchant.example/products/lamp-s"
+    },
+    {
+      "id": "LAMP-L",
+      "name": "Large floor lamp",
+      "price": "199.00",
+      "currency": "EUR",
+      "available": true,
+      "attributes": {
+        "room": "large"
+      },
+      "url": "https://merchant.example/products/lamp-l"
+    },
+    {
+      "id": "LAMP-O",
+      "name": "Compact floor lamp",
+      "price": "79.00",
+      "currency": "EUR",
+      "available": false,
+      "attributes": {
+        "room": "large"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "room",
+      "label": "What is the room size?",
+      "options": [
+        {
+          "label": "Small",
+          "where": {
+            "room": "small"
+          }
+        },
+        {
+          "label": "Large",
+          "where": {
+            "room": "large"
+          }
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "label": "What is your budget?",
+      "options": [
+        {
+          "label": "Up to EUR 100",
+          "where": {
+            "max_price": "100"
+          }
+        }
+      ]
+    }
+  ]
+}

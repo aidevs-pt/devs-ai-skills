@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Feedback to Fixes"
+  short_description: "Turn customer evidence into practical fixes"
+  default_prompt: "Use $customer-feedback-to-fixes to turn reviews, return reasons, and support exports into an evidence-backed list of product, website, or operating-process improvements."

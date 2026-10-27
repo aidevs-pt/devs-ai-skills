@@ -1,0 +1,37 @@
+{
+  "name": "multilingual-catalog-launch",
+  "title": "Multilingual Catalog Launch",
+  "version": "0.1.0",
+  "category": "commerce",
+  "priority": 8,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "E-commerce team entering a new language market",
+  "summary": "Localize an existing approved catalog for a target market while preserving product facts, variant relationships, terminology, and import structure.",
+  "free_result": "A localized catalog, a reusable glossary, protected-fact checks, and a review queue. Keep stable product IDs and produce a change list when approved source content is updated.",
+  "differentiator": "Package a market-launch workflow with usable catalog files and later update handling. Target merchants who need to publish and maintain a market, rather than people looking for a one-sentence translation.",
+  "service_bridge": "Multilingual content systems, CMS/PIM synchronization, approval workflows, and custom AI content tools.",
+  "paid_moment": "We need multiple locales and brands kept in sync with new products and changing source facts.",
+  "website_title": "Translate Product Catalogs in Bulk - Free AI Skill",
+  "primary_query": "translate product descriptions in bulk",
+  "keywords": [
+    "multilingual ecommerce content",
+    "AI ecommerce localization",
+    "product catalog translation"
+  ],
+  "portuguese_query_themes": [
+    "traduzir catálogos de produtos",
+    "tradução de lojas online com IA"
+  ],
+  "page_slug": "multilingual-catalog-launch",
+  "tools": [
+    "scripts/check_localization.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/work/snorkel-spain",
+    "https://www.aidevs.pt/work/yuqo"
+  ]
+}

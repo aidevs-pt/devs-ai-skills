@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "sku": "BOTTLE-250",
+      "title": "Reusable bottle",
+      "variant": "250 ml",
+      "quantity": "250",
+      "unit": "ml",
+      "attributes": {
+        "material": "stainless steel"
+      },
+      "approved": true,
+      "source": "supplier-sheet-7:row-2"
+    },
+    {
+      "sku": "BOTTLE-500",
+      "title": "Reusable bottle",
+      "variant": "500 ml",
+      "quantity": "500",
+      "unit": "ml",
+      "attributes": {
+        "material": "stainless steel"
+      },
+      "approved": true,
+      "source": "supplier-sheet-7:row-3"
+    },
+    {
+      "sku": "BAG-01",
+      "title": "Canvas bag",
+      "attributes": {},
+      "approved": false,
+      "source": "supplier-sheet-7:row-4"
+    }
+  ]
+}

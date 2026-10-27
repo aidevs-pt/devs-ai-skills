@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Finder Builder"
+  short_description: "Prepare useful commerce workflow outputs"
+  default_prompt: "Use $product-finder-builder to build an editable product-finder quiz prototype from a merchant's catalog, buying criteria, and brand assets."

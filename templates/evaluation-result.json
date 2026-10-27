@@ -1,0 +1,18 @@
+{
+  "status": "not_run",
+  "skill": null,
+  "environment": null,
+  "model": null,
+  "prompt": null,
+  "input_reference": null,
+  "conditions": {
+    "with_skill": null,
+    "baseline": null
+  },
+  "commands_executed": [],
+  "observed_output": null,
+  "business_assertions": [],
+  "correction_effort": null,
+  "failures": [],
+  "limitations": []
+}

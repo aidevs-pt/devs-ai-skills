@@ -1,0 +1,21 @@
+{
+  "current": [
+    {
+      "sku": "A",
+      "price": "10.00",
+      "currency": "EUR"
+    }
+  ],
+  "supplier": [
+    {
+      "sku": "A",
+      "price": "12.00",
+      "currency": "EUR"
+    },
+    {
+      "sku": "NEW",
+      "price": "3.00",
+      "currency": "EUR"
+    }
+  ]
+}

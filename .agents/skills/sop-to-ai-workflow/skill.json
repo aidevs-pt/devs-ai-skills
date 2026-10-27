@@ -1,0 +1,37 @@
+{
+  "name": "sop-to-ai-workflow",
+  "title": "SOP to AI Workflow",
+  "version": "0.1.0",
+  "category": "operations",
+  "priority": 6,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Operations manager or hands-on business owner",
+  "summary": "Turn a real operating procedure into a repeatable AI-assisted workflow, then complete one supplied example of the work.",
+  "free_result": "A reusable runbook with inputs, rules, review points, and outputs, plus the completed sample. Identify which steps can already run from files and which need system access or integration.",
+  "differentiator": "Require an actual completed work sample rather than stopping at an automation diagram or speculative ROI. Reuse existing tools when suitable and capture the business exceptions explicitly.",
+  "service_bridge": "Workflow design, integrations, scheduled automations, exception handling, and ongoing support.",
+  "paid_moment": "The file-based version works. We need it triggered automatically, connected to our tools, and reliable when inputs change.",
+  "website_title": "Turn an SOP into an AI Workflow - Free Business Skill",
+  "primary_query": "turn SOP into AI workflow",
+  "keywords": [
+    "automate business processes with AI",
+    "automate a manual process",
+    "AI workflow automation for business"
+  ],
+  "portuguese_query_themes": [
+    "automatizar processos com IA",
+    "automatização de processos empresariais com IA"
+  ],
+  "page_slug": "sop-to-ai-workflow",
+  "tools": [
+    "scripts/check_workflow.py",
+    "scripts/compare_prices.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

@@ -1,0 +1,9 @@
+---
+description: DEVS AI business skills repository context.
+alwaysApply: true
+---
+
+Read AGENTS.md for the repository contract. Canonical packages are in `.agents/skills/`.
+Read a selected SKILL.md only when its workflow is relevant. Use registry.json to browse.
+Do not edit generated catalogs or website content by hand. The free skill must produce
+a useful business result; keep unsupported claims and forced advertising out of outputs.

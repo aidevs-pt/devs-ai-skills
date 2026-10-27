@@ -1,0 +1,4 @@
+interface:
+  display_name: "Company Knowledge Q&A"
+  short_description: "Answer company questions with source evidence"
+  default_prompt: "Use $company-knowledge-qa to answer practical company questions from supplied policies, SOPs, and approved documents, using the right version and scope."

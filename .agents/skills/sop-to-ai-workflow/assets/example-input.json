@@ -1,0 +1,54 @@
+{
+  "name": "Weekly supplier price review",
+  "supplied_inputs": [
+    "current_prices",
+    "supplier_prices"
+  ],
+  "steps": [
+    {
+      "id": "compare",
+      "type": "rule",
+      "inputs": [
+        "current_prices",
+        "supplier_prices"
+      ],
+      "outputs": [
+        "changes"
+      ]
+    },
+    {
+      "id": "explain",
+      "type": "ai",
+      "inputs": [
+        "changes"
+      ],
+      "outputs": [
+        "draft_summary"
+      ],
+      "acceptance_check": "Every quoted change links to its input row; no invented reason."
+    },
+    {
+      "id": "review",
+      "type": "review",
+      "inputs": [
+        "draft_summary"
+      ],
+      "outputs": [
+        "approved_changes"
+      ]
+    },
+    {
+      "id": "update",
+      "type": "external_action",
+      "inputs": [
+        "approved_changes"
+      ],
+      "outputs": [
+        "receipt"
+      ],
+      "depends_on": [
+        "review"
+      ]
+    }
+  ]
+}

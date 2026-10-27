@@ -1,0 +1,38 @@
+{
+  "orders": [
+    {
+      "customer_id": "CUSTOMER-22",
+      "exceptions": [
+        {
+          "candidates": [
+            "TRAY-01",
+            "TRAY-02"
+          ],
+          "code": "ambiguous_product",
+          "line_id": "L2",
+          "source": "po-88:page-1:line-2"
+        },
+        {
+          "candidates": [],
+          "code": "unknown_product",
+          "line_id": "L3",
+          "source": "po-88:page-1:line-3"
+        }
+      ],
+      "lines": [
+        {
+          "catalog_source": "catalog-v2:cup-01",
+          "line_id": "L1",
+          "quantity": "24",
+          "sku": "CUP-01",
+          "source": "po-88:page-1:line-1",
+          "status": "draft",
+          "unit": "piece"
+        }
+      ],
+      "order_id": "PO-88",
+      "status": "draft_incomplete"
+    }
+  ],
+  "submitted": false
+}

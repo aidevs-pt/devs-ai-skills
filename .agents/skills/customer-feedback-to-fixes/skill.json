@@ -1,0 +1,36 @@
+{
+  "name": "customer-feedback-to-fixes",
+  "title": "Customer Feedback to Fixes",
+  "version": "0.1.0",
+  "category": "product",
+  "priority": 9,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Product, e-commerce, or customer-experience lead",
+  "summary": "Turn reviews, return reasons, and support exports into an evidence-backed list of product, website, or operating-process improvements.",
+  "free_result": "Deduplicated themes with traceable examples, affected products or journey stages, suggested fixes, and questions that need more evidence. Keep measured counts separate from estimated impact.",
+  "differentiator": "Join customer evidence to specific commerce/product changes, with links back to the original records. A sentiment summary or generic roadmap is insufficient.",
+  "service_bridge": "Customer-insight pipelines, dashboards, AI analysis, UX redesign, and product engineering.",
+  "paid_moment": "Can you keep this fed from all our channels and implement the product or website changes it reveals?",
+  "website_title": "Turn Customer Feedback into Product Fixes - Free AI Skill",
+  "primary_query": "analyze ecommerce return reasons with AI",
+  "keywords": [
+    "AI customer feedback analysis",
+    "analyze product reviews with AI",
+    "customer feedback to product improvements"
+  ],
+  "portuguese_query_themes": [
+    "analisar feedback de clientes com IA",
+    "analisar avaliações de produtos"
+  ],
+  "page_slug": "customer-feedback-to-fixes",
+  "tools": [
+    "scripts/group_feedback.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

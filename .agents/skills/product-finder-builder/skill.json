@@ -1,0 +1,37 @@
+{
+  "name": "product-finder-builder",
+  "title": "Product Finder Builder",
+  "version": "0.1.0",
+  "category": "commerce",
+  "priority": 5,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "E-commerce owner or growth/product manager",
+  "summary": "Build an editable product-finder quiz prototype from a merchant's catalog, buying criteria, and brand assets.",
+  "free_result": "A working local HTML prototype, question/product mappings, sample shopper journeys, and explanatory recommendation rules. Label rule-based output accurately; AI can generate the tool without being its runtime engine.",
+  "differentiator": "Give the merchant a working artifact they can own and edit, with transparent matching and genuine catalog constraints. The installation is a way to create a business tool, not a lesson in recommendation algorithms.",
+  "service_bridge": "Custom commerce tools, recommendation experiences, store integrations, analytics, and product design.",
+  "paid_moment": "Can you embed this in our store, connect live availability, and make it fit our actual shopping journey?",
+  "website_title": "Build a Product Finder Quiz - Free AI Agent Skill",
+  "primary_query": "product finder quiz builder",
+  "keywords": [
+    "AI product recommendation quiz",
+    "build a product recommendation quiz",
+    "custom ecommerce product finder"
+  ],
+  "portuguese_query_themes": [
+    "quiz de recomendação de produtos",
+    "criar recomendador de produtos"
+  ],
+  "page_slug": "product-finder-builder",
+  "tools": [
+    "scripts/build_finder.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/work/snorkel-spain",
+    "https://www.aidevs.pt/work/yuqo"
+  ]
+}

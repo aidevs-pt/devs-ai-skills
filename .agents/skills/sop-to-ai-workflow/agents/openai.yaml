@@ -1,0 +1,4 @@
+interface:
+  display_name: "SOP to AI Workflow"
+  short_description: "Prepare reviewable operations workflow outputs"
+  default_prompt: "Use $sop-to-ai-workflow to turn a real operating procedure into a repeatable AI-assisted workflow, then complete one supplied example of the work."

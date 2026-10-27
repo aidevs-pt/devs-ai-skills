@@ -1,0 +1,67 @@
+{
+  "as_of": "2026-10-27",
+  "conflicts": [
+    {
+      "action": "ask_document_owner",
+      "sources": [
+        "SUB-A",
+        "SUB-B"
+      ],
+      "topic": "subscriptions"
+    }
+  ],
+  "issues": [],
+  "note": "File scope filtering is not deployed authorization. Lexical candidates are not verified answers.",
+  "questions": [
+    {
+      "answer_status": "needs_cited_answer",
+      "evidence": [
+        {
+          "content": "The sample return period is 30 days.",
+          "matching_terms": 2,
+          "source_id": "RET-CURRENT"
+        }
+      ],
+      "question": "What is the returns period?"
+    },
+    {
+      "answer_status": "insufficient_evidence",
+      "evidence": [],
+      "question": "Can subscriptions be paused?"
+    },
+    {
+      "answer_status": "insufficient_evidence",
+      "evidence": [],
+      "question": "What is our warehouse opening time?"
+    }
+  ],
+  "scope": "PT",
+  "source_manifest": [
+    {
+      "eligible": false,
+      "id": "RET-OLD",
+      "owner": "Store Operations",
+      "reasons": [
+        "expired"
+      ]
+    },
+    {
+      "eligible": true,
+      "id": "RET-CURRENT",
+      "owner": "Store Operations",
+      "reasons": []
+    },
+    {
+      "eligible": true,
+      "id": "SUB-A",
+      "owner": "Customer Operations",
+      "reasons": []
+    },
+    {
+      "eligible": true,
+      "id": "SUB-B",
+      "owner": "Customer Operations",
+      "reasons": []
+    }
+  ]
+}

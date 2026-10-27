@@ -1,0 +1,36 @@
+{
+  "name": "ai-automation-opportunity-finder",
+  "title": "AI Automation Opportunity Finder",
+  "version": "0.1.0",
+  "category": "strategy",
+  "priority": 10,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Business owner or operations leader exploring AI",
+  "summary": "Identify a worthwhile first automation using the business's actual tasks, volumes, examples, systems, and correction costs.",
+  "free_result": "A prioritized shortlist, editable assumptions, an option comparison, and a scoped pilot brief with a baseline and success criteria. Include process changes or existing software when they are sufficient.",
+  "differentiator": "Make the output specific enough to run a pilot or request comparable implementation quotes. Use real task evidence and transparent economics, with no invented savings or forced custom-AI recommendation.",
+  "service_bridge": "AI discovery, feasibility assessment, prototypes, and custom implementation.",
+  "paid_moment": "We have a concrete pilot. We need help validating, connecting, and implementing it.",
+  "website_title": "Find Your First Business AI Automation - Free Skill",
+  "primary_query": "AI automation opportunities for business",
+  "keywords": [
+    "what can I automate with AI",
+    "AI automation audit",
+    "AI use cases for small business"
+  ],
+  "portuguese_query_themes": [
+    "o que automatizar com IA na empresa",
+    "oportunidades de automatização com IA"
+  ],
+  "page_slug": "ai-automation-opportunity-finder",
+  "tools": [
+    "scripts/rank_opportunities.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

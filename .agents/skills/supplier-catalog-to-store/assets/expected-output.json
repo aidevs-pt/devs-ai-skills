@@ -1,0 +1,52 @@
+{
+  "import_csv": "sku,title,variant,description,source,status\nBOTTLE-250,Reusable bottle,250 ml,Reusable bottle. 250 ml; material: stainless steel.,supplier-sheet-7:row-2,draft_ready\nBOTTLE-500,Reusable bottle,500 ml,Reusable bottle. 500 ml; material: stainless steel.,supplier-sheet-7:row-3,draft_ready\nBAG-01,Canvas bag,,Canvas bag.,supplier-sheet-7:row-4,needs_review\n",
+  "issues": [
+    {
+      "code": "source_not_approved",
+      "row": 3,
+      "sku": "BAG-01",
+      "source": "supplier-sheet-7:row-4"
+    }
+  ],
+  "records": [
+    {
+      "draft_description": "Reusable bottle. 250 ml; material: stainless steel.",
+      "facts": {
+        "material": "stainless steel"
+      },
+      "quantity": "250",
+      "sku": "BOTTLE-250",
+      "source": "supplier-sheet-7:row-2",
+      "status": "draft_ready",
+      "title": "Reusable bottle",
+      "unit": "ml",
+      "variant": "250 ml"
+    },
+    {
+      "draft_description": "Reusable bottle. 500 ml; material: stainless steel.",
+      "facts": {
+        "material": "stainless steel"
+      },
+      "quantity": "500",
+      "sku": "BOTTLE-500",
+      "source": "supplier-sheet-7:row-3",
+      "status": "draft_ready",
+      "title": "Reusable bottle",
+      "unit": "ml",
+      "variant": "500 ml"
+    },
+    {
+      "draft_description": "Canvas bag.",
+      "facts": {},
+      "quantity": "",
+      "sku": "BAG-01",
+      "source": "supplier-sheet-7:row-4",
+      "status": "needs_review",
+      "title": "Canvas bag",
+      "unit": "",
+      "variant": ""
+    }
+  ],
+  "review_required": true,
+  "semantic_review": "Host agent must review claims; no semantic accuracy score is computed."
+}

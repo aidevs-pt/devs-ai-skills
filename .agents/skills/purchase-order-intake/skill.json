@@ -1,0 +1,36 @@
+{
+  "name": "purchase-order-intake",
+  "title": "Purchase Order Intake",
+  "version": "0.1.0",
+  "category": "operations",
+  "priority": 4,
+  "status": "alpha",
+  "publisher": "DEVS AI LDA",
+  "license": "MIT",
+  "audience": "Wholesaler, distributor, or operations manager",
+  "summary": "Turn incoming customer purchase orders and order emails into structured sales-order drafts matched to the seller's approved catalog.",
+  "free_result": "A reviewable spreadsheet/import file with customer details, matched product codes, quantities, source references, and exceptions such as unknown SKUs or ambiguous units.",
+  "differentiator": "Concentrate on inbound customer PO-to-sales-order entry for smaller businesses, including their item codes and exceptions. Start with a vendor-neutral file workflow, rather than a procurement-management interface.",
+  "service_bridge": "Document intake, product/customer matching, ERP integrations, review interfaces, and exception handling.",
+  "paid_moment": "We need this to watch an inbox, check our catalog, and create approved draft orders in our ERP.",
+  "website_title": "Automate Purchase Order Data Entry - Free AI Skill",
+  "primary_query": "automate purchase order data entry",
+  "keywords": [
+    "AI purchase order processing",
+    "PDF purchase order to Excel",
+    "customer PO to sales order automation"
+  ],
+  "portuguese_query_themes": [
+    "automatizar a introdução de encomendas",
+    "processar notas de encomenda com IA"
+  ],
+  "page_slug": "purchase-order-intake",
+  "tools": [
+    "scripts/match_orders.py"
+  ],
+  "updated": "2026-10-27",
+  "native_client_smoke_tested": false,
+  "case_studies": [
+    "https://www.aidevs.pt/ai-services"
+  ]
+}

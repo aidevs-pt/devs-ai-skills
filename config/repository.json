@@ -1,0 +1,11 @@
+{
+  "display_name": "DEVS AI Business Skills",
+  "github_repository": "aidevs-pt/devs-ai-skills",
+  "license": "MIT",
+  "name": "devs-ai-skills",
+  "publisher": "DEVS AI LDA",
+  "release_status": "alpha",
+  "services_url": "https://www.aidevs.pt/ai-services",
+  "version": "0.1.0",
+  "website": "https://www.aidevs.pt"
+}
