@@ -30,10 +30,10 @@ workspace directory according to their current documentation. Discovery does not
 guarantee a skill will activate automatically: explicitly request the named skill
 and inspect the loaded file path. Enterprise policies and client versions can differ.
 
-For Claude Code, load the repository as a local plugin marketplace:
+For Claude Code, load the repository as a remote plugin marketplace:
 
 ```text
-/plugin marketplace add .
+/plugin marketplace add aidevs-pt/devs-ai-skills
 /plugin install devs-ai-business-skills@devs-ai-marketplace
 ```
 
