@@ -4,12 +4,24 @@ Extract the repository ZIP to a normal writable directory. Open that root in you
 editor. For terminal commands, use Python 3.10+ (`python`, `python3`, or `py` according
 to your installation). No pip install is required.
 
-## In this repository
+## Skills installation
 
 Codex, Cursor, Gemini CLI, and VS Code can discover the canonical `.agents/skills/`
 workspace directory according to their current documentation. Discovery does not
 guarantee a skill will activate automatically: explicitly request the named skill
 and inspect the loaded file path. Enterprise policies and client versions can differ.
+
+## [skills.sh](https://www.skills.sh/aidevs-pt/devs-ai-skills) Installation (recommended)
+
+Simply run the installation command as:
+
+```bash
+npx skills add aidevs-pt/devs-ai-skills
+```
+
+Skills by Vercel is the recommended way of installation, as it's the mechanism that most of the agents share.
+
+## Claude Code
 
 For Claude Code, load the repository as a local plugin marketplace:
 

@@ -1,11 +1,14 @@
 # DEVS AI Business Skills
 
+[![skills.sh](https://skills.sh/b/aidevs-pt/devs-ai-skills)](https://skills.sh/aidevs-pt/devs-ai-skills) [![Validate skills](https://github.com/aidevs-pt/devs-ai-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/aidevs-pt/devs-ai-skills/actions/workflows/validate.yml)
+
+
 Free, reusable AI workflows for useful business work: prepare a catalog, draft
 order-support replies, answer company-document questions, and process operational data.
 Built for the open Agent Skills format and the people who own these business jobs.
 
 [DEVS AI](https://www.aidevs.pt) | [AI services](https://www.aidevs.pt/ai-services) |
-[Skill catalog](docs/skills-reference.md) | [Installation](docs/installation.md) |
+[Skill catalog](https://www.aidevs.pt/skills) | [Installation](docs/installation.md) |
 [Create a skill](docs/authoring.md)
 
 ## Start with a business job
@@ -29,6 +32,18 @@ Codex, Cursor, Gemini CLI, and VS Code can discover the canonical `.agents/skill
 workspace directory according to their current documentation. Discovery does not
 guarantee a skill will activate automatically: explicitly request the named skill
 and inspect the loaded file path. Enterprise policies and client versions can differ.
+
+## [skills.sh](https://www.skills.sh/aidevs-pt/devs-ai-skills) Installation (recommended)
+
+Simply run the installation command as:
+
+```bash
+npx skills add aidevs-pt/devs-ai-skills
+```
+
+Skills by Vercel is the recommended way of installation, as it's the mechanism that most of the agents share.
+
+## Claude Code
 
 For Claude Code, load the repository as a remote plugin marketplace:
 
